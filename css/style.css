@@ -1,0 +1,20 @@
+#movies img, #movie img {
+    width: 100%;
+}
+@media(min-width:960px) {
+    #movies .col-md-3 .well {
+        height: 390px;
+    }
+    #movies  img { 
+        height: 240px;
+    }
+
+}
+
+body{
+    background-color: grey;
+}
+.well{
+    margin: 5px; background-color: burlywood; padding: 10px; border-radius: 20px;
+
+}
